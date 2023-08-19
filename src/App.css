@@ -13,12 +13,22 @@
 	color: #888;
 }
 
+button{
+	width: 100% !important;
+}
+
 .btn-action {
 	display: flex;
+	flex-direction: column;
 	gap: 10px;
-  margin-top: 20px;
+	margin-top: 20px;
 }
 
 .num {
 	margin-bottom: 20px;
+}
+
+.gap-2{
+	display: flex;
+	gap: 10px;
 }
